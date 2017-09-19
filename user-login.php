@@ -46,8 +46,6 @@ $output = "";
 
               $updateresults = pg_execute($conn, "update_query", array($login));
 
-              
-
             }
           else
             {
