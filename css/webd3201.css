@@ -1,0 +1,137 @@
+/************************************************
+ * Authors: Christopher O'Marra, Erik Kostashuk,
+ *					Harsh Yadav, Brenden Demetorff
+ * Date: 2017-09-07
+ * Filename: webd3201.css
+ * Purpose: This css file provides the design and
+ *					layout for the webd3201 project.
+ *
+*************************************************/
+
+body{ /*main background colour */
+	background-color: #FFF;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+th{  /*table background colour */
+	background-color: #FFB6C1;
+	color: #FFF;
+}
+p{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 20px;
+	padding: 20px;
+}
+h1, h2, h3{
+	color: #FF69B4;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+ul{
+	list-style-type: square;
+}
+ol{
+	list-style-type: lower-roman;
+}
+span{
+	font-size: 36pt;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: "Arial Black", Tahoma;
+}
+cite{
+	font-size: 14pt;
+	font-style: italic;
+	font-family: Verdana;
+	display: block;
+}
+hr{
+	border-color: #000000;
+}
+#container
+{
+	margin: 0 auto;
+	width: 1200px;
+	background: #FFB6C1;
+}
+
+#header /* header colour */
+{
+	background: #FFF;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+#header h1
+ {
+			margin: 0;
+			display: inline;
+}
+#header img
+ {
+			vertical-align: middle;
+			width: 100px;
+}
+
+#content-container /* main container background colour */
+{
+	float: left;
+	width: 1200px;
+	background-color: #FFF;
+	background-repeat: repeat-y;
+	border: 1px solid black;
+
+}
+#content-container h2{
+	padding: 10px;
+	text-align: center;
+}
+
+#footer /* footer main background colour */
+{
+	clear: both;
+	background: #FFB6C1;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	border: 1px solid black;
+}
+
+#footer img /* footer image alignment */
+{
+	vertical-align: middle;
+}
+
+#sites
+{
+	float: left;
+	width: 1200px;
+	background: #FFB6C1;
+	border: 1px solid black;
+}
+
+#sites ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#sites ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#sites li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-right: 1px solid #FFFFFF;
+}
+
+#sites li a:hover {
+				background-color: #CCCCCC;
+				color: #000000;
+}
