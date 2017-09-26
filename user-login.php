@@ -37,10 +37,16 @@ $output = "";
 
           $results = pg_execute($conn, "my_query", array($login, $password));
 
-          if(pg_num_rows($results))
+          if(pg_num_rows($results) != 0)
             {
+
+
               session_start();
+              
+              $_SESSION['last_access'] =  pg_fetch_result($results, 0, 2);
+
               $_SESSION['user_id'] = $login;
+
               header('Location: user-dashboard.php');
 
               $updateresults = pg_prepare($conn, "update_query", "UPDATE users SET last_access = now()

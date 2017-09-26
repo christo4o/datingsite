@@ -131,7 +131,8 @@ hr{
 	border-right: 1px solid #FFFFFF;
 }
 
-#sites li a:hover {
+#sites li a:hover
+{
 				background-color: #CCCCCC;
 				color: #000000;
 }
