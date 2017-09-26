@@ -1,5 +1,5 @@
 <?php
 function displayCopyrightInfo(){
-  echo "&copy; " . date('Y') . " Christopher O'Marra";
+  echo "&copy; " . date('Y') . " Group 25";
 }
  ?>

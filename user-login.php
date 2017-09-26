@@ -31,7 +31,7 @@ $output = "";
         {
           $conn = db_connect();
 
-          $results = pg_prepare($conn, "my_query", "SELECT user_id, password
+          $results = pg_prepare($conn, "my_query", "SELECT user_id, password, last_access
         			FROM users
               WHERE user_id = $1 AND password = $2");
 
@@ -39,6 +39,8 @@ $output = "";
 
           if(pg_num_rows($results))
             {
+              session_start();
+              $_SESSION['user_id'] = $login;
               header('Location: user-dashboard.php');
 
               $updateresults = pg_prepare($conn, "update_query", "UPDATE users SET last_access = now()

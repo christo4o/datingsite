@@ -5,24 +5,19 @@
       $banner = "User Dashboard";
 include "header.php";?>
 
+
+
 <?php
-
-/*
-
-$output = "";
-
 session_start();
-
-echo $_SESSION["last_access"];
-
-$output = "You last logged in on " . $last_access . ".";
-
-*/
-
-
-/* $output .= "Welcome back " . $first_name . '&nbsp;' . $last_name
-            . "." . "<br/>Your email address is " . $email_address
-            . ".<br/>You last logged in on " . $last_access . "."; */
-
+if(isset($_SESSION['user_id']))
+  {
+  echo "Welcome: " . $_SESSION['user_id'];
+  }
+else
+   {
+     header('Location: user-login.php');
+     }
 ?>
+
+
 <?php include "footer.php";?>
