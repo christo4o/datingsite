@@ -40,5 +40,5 @@
 		</ul>
 	</div>
 	<div id="content-container">
-		
+
 				<h2><?php echo $banner;?></h2>

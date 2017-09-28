@@ -1,5 +1,5 @@
 <?php
-define("db_url", "localhost")
+define("db_url", "localhost");
 define("ADMIN", "a");
 define("CLIENT", "c");
 define("INCOMPLETE", "i");
