@@ -1,3 +1,11 @@
+<!--
+Authors: Christopher O'Marra, Erik Kostashuk, Harsh Yadav, Brenden Demetorff
+Filename: constants.php
+Date: 2017-09-28
+Description: This file holds all the constants for
+             validation, the database connection and user types
+-->
+
 <?php
 define("db_url", "localhost");
 define("ADMIN", "a");

@@ -9,25 +9,31 @@
 *************************************************/
 
 
-body{ /*main background colour */
+body
+{
 	background-color: #FFF;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
-p{
+p
+{
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 16px;
 	margin: 20px;
 	padding: 20px;
 }
-h1, h2, h3{
+
+h1, h2, h3
+{
 	color: #FF69B4;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 
-hr{
+hr
+{
 	border-color: #000000;
 }
+
 #container
 {
 	margin: 0 auto;
@@ -35,7 +41,7 @@ hr{
 	background: #FFB6C1;
 }
 
-#header /* header colour */
+#header
 {
 	background: #FFF;
 	padding: 20px;
@@ -43,18 +49,19 @@ hr{
 }
 
 #header h1
- {
+{
 			margin: 0;
 			display: inline;
 }
+
 #header img
- {
+{
 			vertical-align: middle;
 			width: 100px;
 }
 
-#hnavbar{
-
+#hnavbar
+{
   width: auto;
   height: 40px;
   margin: 15px;
@@ -63,19 +70,20 @@ hr{
   text-align: center;
 }
 
-#hnavbar ul {
+#hnavbar ul
+{
     margin: 0;
     padding: 0;
 }
 
-#hnavbar ul li{
+#hnavbar ul li
+{
   list-style-type: none;
   display: inline-block;
 }
 
-/* This sets the display, color, alignment, float and padding of the nav bar buttons */
-
-#hnavbar li a {
+#hnavbar li a
+{
     border-radius: 10px;
     float: left;
     padding: 10px;
@@ -88,9 +96,8 @@ hr{
    box-shadow: 3px 3px 4px #000;
 }
 
-/* Horizontal nav bars colour when hovered over */
-
-#hnavbar li a:hover {
+#hnavbar li a:hover
+{
     background-color: #555;
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
@@ -103,7 +110,7 @@ hr{
     transition: box-shadow 1000ms linear;
 }
 
-#content-container /* main container background colour */
+#content-container
 {
 	float: left;
 	width: 100%;
@@ -111,16 +118,15 @@ hr{
 	border: 1px solid black;
 	text-align: center;
 	min-height: 500px;
-
 }
-#content-container h2{
+
+#content-container h2
+{
 	padding: 10px;
 	text-align: center;
 }
 
-
-
-#footer /* footer main background colour */
+#footer
 {
 	clear: both;
 	background: #FFB6C1;
@@ -130,8 +136,7 @@ hr{
 	border: 1px solid black;
 }
 
-
-#footer img /* footer image alignment */
+#footer img
 {
 	vertical-align: middle;
 }

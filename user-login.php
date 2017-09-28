@@ -1,7 +1,10 @@
 <?php $title = "User Login";
       $filename = "user-login.php";
       $date = "2017-09-08";
-      $description = "null";
+      $description = "This page allows a user to enter their login credentials,
+                      it then validates their input and displays an error
+                      message if any of it is incorrect, if they are in the
+                      database it then redirects them to their dashboard.";
       $banner = "Please log in";
 include "header.php";?>
 <?php
@@ -39,8 +42,6 @@ $output = "";
 
           if(pg_num_rows($results) != 0)
             {
-
-
               session_start();
 
               $_SESSION['last_access'] =  pg_fetch_result($results, 0, 2);
@@ -53,7 +54,6 @@ $output = "";
                       WHERE user_id = $1");
 
               $updateresults = pg_execute($conn, "update_query", array($login));
-
             }
           else
             {

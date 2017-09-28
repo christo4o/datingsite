@@ -9,7 +9,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="./css/webd3201.css" />
 	<!--
-	Author: Christopher O'Marra
+	Authors: Christopher O'Marra, Erik Kostashuk, Harsh Yadav, Brenden Demetorff
 	Filename: <?php echo $filename;?>
 	Date: <?php echo $date;?>
 	Description: <?php echo $description;?>
@@ -23,11 +23,9 @@
 <div id="container">
 	<div id="header">
 		<img src="./images/flame-large.png" alt="site logo" />
-	
 		<h1>
 			I'll show you my Ember if you show me yours
 		</h1>
-
 	</div>
   <div id="hnavbar">
 		<ul>
@@ -42,5 +40,4 @@
 		</ul>
 	</div>
 	<div id="content-container">
-
-				<h2><?php echo $banner;?></h2>
+		<h2><?php echo $banner;?></h2>

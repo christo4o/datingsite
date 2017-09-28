@@ -1,3 +1,10 @@
+<!--
+Authors: Christopher O'Marra, Erik Kostashuk, Harsh Yadav, Brenden Demetorff
+Filename: functions.php
+Date: 2017-09-28
+Description: This file contains the copyright and last access functions.
+-->
+
 <?php
 function displayCopyrightInfo()
 {

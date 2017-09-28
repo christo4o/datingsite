@@ -1,11 +1,9 @@
 <?php $title = "User Register";
       $filename = "user_register.php";
       $date = "2017-09-08";
-      $description = "null";
+      $description = "This page will allow new users to register.";
       $banner = "Register";
 include "header.php";?>
-
-
 <form>
     <hr/>
     <p>
@@ -41,5 +39,4 @@ include "header.php";?>
     </tr>
     </table>
 </form>
-
 <?php include "footer.php";?>
