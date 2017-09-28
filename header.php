@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<link rel="icon" href="./images/cat.ico">
+	<link rel="icon" href="./images/flame_large_vJV_icon.ico">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="./css/webd3201.css" />
 	<!--
@@ -22,10 +22,12 @@
 <body>
 <div id="container">
 	<div id="header">
-		<img src="./images/sitelogo.png" alt="site logo" />
+		<img src="./images/flame-large.png" alt="site logo" />
+	
 		<h1>
-			I'll put the slogan here eventually
+			I'll show you my Ember if you show me yours
 		</h1>
+
 	</div>
   <div id="sites">
 		<ul>
