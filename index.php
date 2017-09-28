@@ -1,8 +1,8 @@
-<?php $title = "WEBD3201 Home Page";
+<?php $title = "Ember";
       $filename = "index.php";
       $date = "2017-09-07";
-      $description = "This is my homepage for WEBD3201.";
-      $banner = "FindHer";
+      $description = "This is the homepage for the Ember dating site.";
+      $banner = "Ember";
 include "header.php";?>
 
 <hr/>
