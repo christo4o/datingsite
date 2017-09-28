@@ -6,8 +6,15 @@ function db_connect(){
 }
 ?>
 
+<?php
+function db_connect(){
+  $connection = pg_connect("host=localhost dbname=group25_db user=group25_admin password=buyinggf");
+  return $connection;
+}
+?>
 
 <?php
+define("db_url", "localhost")
 define("ADMIN", "a");
 define("CLIENT", "c");
 define("INCOMPLETE", "i");
