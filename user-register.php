@@ -5,8 +5,42 @@
       $banner = "Register";
 include "header.php";?>
 
-<p>
-  Salvia tumblr fam direct trade microdosing sustainable biodiesel hoodie echo park poutine bespoke vinyl kitsch succulents. Raw denim tumeric PBR&B ugh pug. Biodiesel photo booth venmo, locavore 3 wolf moon XOXO etsy beard marfa hell of keytar next level retro. Vegan raclette echo park art party bicycle rights heirloom cold-pressed. Food truck marfa raclette roof party DIY keffiyeh, 90's kogi mumblecore next level fashion axe lo-fi vice. IPhone taiyaki kale chips, pour-over pitchfork kickstarter trust fund kinfolk disrupt godard quinoa lyft mlkshk humblebrag. Pitchfork next level lomo try-hard. Glossier drinking vinegar chartreuse, offal lo-fi bushwick austin retro everyday carry 8-bit messenger bag chillwave typewriter. Direct trade bespoke fixie enamel pin skateboard. VHS biodiesel art party, gochujang pug vice letterpress fingerstache retro +1. Wolf occupy fingerstache tbh selfies slow-carb freegan fixie prism live-edge. Authentic mlkshk cliche, flannel narwhal bitters cronut photo booth asymmetrical truffaut lo-fi farm-to-table.
-</p>
+<form>
+ <div style= "text-align: center;">
+    <hr/>
+    <p>
+      Enter your information to register.<br/>
+    </p>
+    <table border="0" cellpadding="10" style="margin: auto;">
+    <tr>
+    	<td><strong>User ID:</strong></td>
+    	<td><input type="text" name="user_id" value="" size="20" /></td>
+    </tr>
+    <tr>
+    	<td><strong>Password:</strong></td>
+    	<td><input type="password" name="password" value="" size="20" /></td>
+    </tr>
+    <tr>
+      <td><strong>E-Mail Address:</strong></td>
+    	<td><input type="text" name="email_address" value="" size="20" /></td>
+    </tr>
+    <tr>
+      <td><strong>First Name:</strong></td>
+    	<td><input type="text" name="first_name" value="" size="20" /></td>
+    </tr>
+    <tr>
+      <td><strong>Last Name:</strong></td>
+    	<td><input type="text" name="last_name" value="" size="20" /></td>
+    </tr>
+    <tr>
+      <td><strong>Date of Birth:</strong></td>
+    	<td><input type="date" name="birth_date"></td>
+    </tr>
+    <tr>
+    	<td colspan="2"><input type="submit" value = "Register"/></td>
+    </tr>
+    </table>
+  </div>
+</form>
 
 <?php include "footer.php";?>

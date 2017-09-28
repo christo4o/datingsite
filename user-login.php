@@ -81,11 +81,11 @@ $output = "";
     </p>
     <table border="0" cellpadding="10" style="margin: auto;">
     <tr>
-    	<td><strong>User ID</strong></td>
+    	<td><strong>User ID:</strong></td>
     	<td><input type="text" name="user_id" value="<?php echo $login; ?>" size="20" /></td>
     </tr>
     <tr>
-    	<td><strong>Password</strong></td>
+    	<td><strong>Password:</strong></td>
     	<td><input type="password" name="password" value="" size="20" /></td>
     </tr>
     <tr>
