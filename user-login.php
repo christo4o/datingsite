@@ -42,7 +42,7 @@ $output = "";
 
 
               session_start();
-              
+
               $_SESSION['last_access'] =  pg_fetch_result($results, 0, 2);
 
               $_SESSION['user_id'] = $login;
@@ -82,7 +82,6 @@ $output = "";
     <p>
       Enter your user ID and password to connect to this system<br/>
     </p>
-
     <table border="0" cellpadding="10" style="margin: auto;">
     <tr>
     	<td><strong>User ID</strong></td>
