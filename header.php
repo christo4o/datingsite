@@ -27,7 +27,7 @@
 			I'll put the slogan here eventually
 		</h1>
 	</div>
-  <div id="sites">
+  <div id="hnavbar">
 		<ul>
       <li><a href="./index.php">Home Page</a></li>
       <li><a href="./profile-create.php">Create Profile</a></li>

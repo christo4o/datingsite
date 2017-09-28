@@ -74,7 +74,7 @@ $output = "";
 <h3 style = "text-align: center;"><?php echo $error; ?></h3>
 <h3 style = "text-align: center;"><?php echo $output; ?></h3>
 <form action="<?php echo $_SERVER['PHP_SELF'];  ?>" method="post" >
- <div style= "text-align: center;">
+ <div id="content">
     <hr/>
     <p>
       Enter your user ID and password to connect to this system<br/>

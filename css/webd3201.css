@@ -12,10 +12,7 @@ body{ /*main background colour */
 	background-color: #FFF;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
-th{  /*table background colour */
-	background-color: #FFB6C1;
-	color: #FFF;
-}
+
 p{
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 16px;
@@ -26,31 +23,14 @@ h1, h2, h3{
 	color: #FF69B4;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
-ul{
-	list-style-type: square;
-}
-ol{
-	list-style-type: lower-roman;
-}
-span{
-	font-size: 36pt;
-	text-decoration: underline;
-	font-weight: bold;
-	font-family: Arial Black, Tahoma;
-}
-cite{
-	font-size: 14pt;
-	font-style: italic;
-	font-family: Verdana;
-	display: block;
-}
+
 hr{
 	border-color: #000000;
 }
 #container
 {
 	margin: 0 auto;
-	width: 1200px;
+	width: auto;
 	background: #FFB6C1;
 }
 
@@ -72,19 +52,72 @@ hr{
 			width: 100px;
 }
 
+#hnavbar{
+
+  width: auto;
+  height: 40px;
+  margin: 15px;
+  background: #FFF;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#hnavbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#hnavbar ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* This sets the display, color, alignment, float and padding of the nav bar buttons */
+
+#hnavbar li a {
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+    margin: 0;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: none;
+    -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+}
+
+/* Horizontal nav bars colour when hovered over */
+
+#hnavbar li a:hover {
+    background-color: #555;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: box-shadow 1000ms linear;
+    -ms-transition: box-shadow 1000ms linear;
+    transition: box-shadow 1000ms linear;
+}
+
 #content-container /* main container background colour */
 {
 	float: left;
-	width: 1200px;
+	width: 100%;
 	background-color: #FFF;
-	background-repeat: repeat-y;
 	border: 1px solid black;
+	text-align: center;
+	min-height: 500px;
 
 }
 #content-container h2{
 	padding: 10px;
 	text-align: center;
 }
+
+
 
 #footer /* footer main background colour */
 {
@@ -100,40 +133,4 @@ hr{
 #footer img /* footer image alignment */
 {
 	vertical-align: middle;
-}
-
-#sites
-{
-	float: left;
-	width: 1200px;
-	background: #FFB6C1;
-	border: 1px solid black;
-}
-
-#sites ul
-{
-	margin: 0;
-	padding: 0;
-}
-
-#sites ul li
-{
-	list-style-type: none;
-	display: inline;
-}
-
-#sites li a
-{
-	display: block;
-	float: left;
-	padding: 5px 10px;
-	color: #FFFFFF;
-	text-decoration: none;
-	border-right: 1px solid #FFFFFF;
-}
-
-#sites li a:hover
-{
-				background-color: #CCCCCC;
-				color: #000000;
 }

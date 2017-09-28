@@ -5,8 +5,8 @@
       $banner = "Register";
 include "header.php";?>
 
+
 <form>
- <div style= "text-align: center;">
     <hr/>
     <p>
       Enter your information to register.<br/>
@@ -40,7 +40,6 @@ include "header.php";?>
     	<td colspan="2"><input type="submit" value = "Register"/></td>
     </tr>
     </table>
-  </div>
 </form>
 
 <?php include "footer.php";?>

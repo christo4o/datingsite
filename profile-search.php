@@ -4,7 +4,7 @@
       $description = "null";
       $banner = "Search";
 include "header.php";?>
-
+<hr/>
 
 <input type='text' placeholder='Search...' id='search-text-input' />
 

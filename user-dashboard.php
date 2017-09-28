@@ -4,7 +4,7 @@
       $description = "null";
       $banner = "User Dashboard";
 include "header.php";?>
-
+<hr/>
 <p>
     <?php lastAccess(); ?>
 </p>
