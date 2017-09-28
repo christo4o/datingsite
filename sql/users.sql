@@ -4,6 +4,7 @@ Course Code: WEBD3201
 Date: 2017-09-08
 Filename: users.sql
 */
+
 DROP TABLE IF EXISTS users;
 
 CREATE TABLE users(

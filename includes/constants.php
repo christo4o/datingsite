@@ -6,6 +6,7 @@ function db_connect(){
 }
 ?>
 
+
 <?php
 define("ADMIN", "a");
 define("CLIENT", "c");

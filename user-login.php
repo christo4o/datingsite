@@ -70,9 +70,6 @@ $output = "";
             }
         }
     }
-
-
-
  ?>
 <h3 style = "text-align: center;"><?php echo $error; ?></h3>
 <h3 style = "text-align: center;"><?php echo $output; ?></h3>

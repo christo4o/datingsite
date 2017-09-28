@@ -5,9 +5,6 @@
       $banner = "User Dashboard";
 include "header.php";?>
 
-
-
-
 <p>
     <?php lastAccess(); ?>
 </p>

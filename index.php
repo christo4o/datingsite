@@ -4,6 +4,7 @@
       $description = "This is my homepage for WEBD3201.";
       $banner = "FindHer";
 include "header.php";?>
+
 <hr/>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
