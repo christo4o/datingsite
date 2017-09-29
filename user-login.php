@@ -10,7 +10,6 @@ include "header.php";?>
 <?php
 
 $error = "";
-$output = "";
 
   if($_SERVER["REQUEST_METHOD"] == "GET")
     {
@@ -59,11 +58,11 @@ $output = "";
             {
               $error = "The user id/password were not found in our system.<br/>";
 
-              $notfoundresults = pg_prepare($conn, "notfound_query", "SELECT user_id, password FROM users WHERE user_id = $1 AND password = $2");
+              $notfoundresults = pg_prepare($conn, "notfound_query", "SELECT user_id FROM users WHERE user_id = $1");
 
-              $notfoundresults = pg_execute($conn, "notfound_query", array($login, $password));
+              $notfoundresults = pg_execute($conn, "notfound_query", array($login));
 
-              if(!pg_num_rows($results))
+              if(!pg_num_rows($notfoundresults))
                 {
                   $login = "";
                 }
@@ -72,8 +71,7 @@ $output = "";
     }
  ?>
 <h3 style = "text-align: center;"><?php echo $error; ?></h3>
-<h3 style = "text-align: center;"><?php echo $output; ?></h3>
-<form action="<?php echo $_SERVER['PHP_SELF'];  ?>" method="post" >
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
  <div id="content">
     <hr/>
     <p>
@@ -82,7 +80,7 @@ $output = "";
     <table border="0" cellpadding="10" style="margin: auto;">
     <tr>
     	<td><strong>User ID:</strong></td>
-    	<td><input type="text" name="user_id" value="<?php echo $login; ?>" size="20" /></td>
+    	<td><input type="text" name="user_id" value="<?php echo $login;?>" size="20" /></td>
     </tr>
     <tr>
     	<td><strong>Password:</strong></td>
